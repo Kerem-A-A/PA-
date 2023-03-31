@@ -1,0 +1,45 @@
+vergi_sozlugu = {
+           '0002': 'ZIRAİ KAZANÇ GELİR VERGİSİ',
+           '0004':	'GELİR GÖTÜRÜ TİCARİ KAZANÇ',
+           '0005':	'GELİR GÖTÜRÜ SERBEST MESLEK KAZANCI',
+           '0006':	'GELİR GÖTÜRÜ ÜCRET',
+           '0007':	'DAĞITILMAYAN KAR STOPAJI',
+           '0010':	'KURUMLAR VERGİSİ',
+           '0011':	'KURUMLAR VERGİSİ STOPAJI (KVKM24)',
+           '0012':	'GELİR VERGİSİ (GMSI)',
+           '0014':	'BASIT USULDE TİCARİ KAZANC',
+           '0015':	'GERÇEK USULDE KATMA DEĞER VERGİSİ',
+           '0017':	'GÖTÜRÜ USULDE KATMA DEĞER VERGİSİ',
+           '0020':	'MEP İŞTİRAKÇİSİ KURUMLAR VERGİSİ',
+           '0021':	'BANKA MUAMELELERİ VERGİSİ',
+           '0022':	'SİGORTA MUAMELELERİ VERGİSİ',
+           '0027':	'GELİR VERGİSİ GEÇİCİ VERGİ',
+           '0032':	'GELİR GEÇİCİ VERGİ',
+           '0033':	'KURUM GEÇİCİ VERGİ',
+           '0040':	'DAMGA VERGİSİ BEYANNAMELİ DAMGA VERGİSİ MÜKELLEFİ',
+           '0046':	'AKARYAKIT TÜKETİM VERGİSİ',
+           '0048':'GELİR V. M.TALİH OYUNLARI ASGARİ VERGİ',
+           '0049':	'HER TÜRLÜ İSPİRTOLAR VE FÜZEL YAĞINDAN ALINAN EK VERGİ',
+           '0050':	'KURUMLAR V. M.TALİH OYUNLARI ASGARİ VERGİ',
+           '0051':	'DİĞER ÜCRETLER',
+           '0053':	'KURUMLAR VERGİSİ KURUM GEÇİCİ VERGİ',
+           '0056':	'OYUN KAĞITLARINDAN ALINAN EK VERGİ',
+           '0057':	'RÖNTGEN FİLMLERİNDEN ALINAN EK VERGİ',
+           '0060':	'MÜLGA MADEN FONU',
+           '0061':	'KAYNAK KULLANIMI DESTEKLEME FONU KESİNTİSİ',
+           '0062':	'MÜLGA KOOPERATİFÇİLİK TANITMA VE EĞİTİM FONU',
+           '0067':	'G.V.K. GEÇİCİ 67/11 MADDESİNE GÖRE YAPILAN İHTİYARİ BEYAN',
+           '0071':	'PETROL VE DOĞALGAZ ÜRÜNLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ',
+           '0073':	'KOLALI GAZOZ, ALKOLLÜ İÇEÇEKLER VE TÜTÜN MAMÜLLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ',
+           '0074':	'DAYANIKLI TÜKETİM VE DİĞER MALLARA İLİŞKİN ÖZEL TÜKETİM VERGİSİ',
+           '0075':	'ALKOLLÜ İÇEÇEKLERE İLİŞKİN ÖZEL TÜKETİM VERGİSİ',
+           '0076':	'TÜTÜN MAMÜLLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ',
+           '0077':	'KOLALI GAZOZLARA İLİŞKİN ÖZEL TÜKETİM VERGİSİ',
+           '0091':	'TÜTÜN MAMÜLLERİNE İLİŞKİN EK VERGİ',
+            }
+kelime = input("Anlamadığınız bir vergi yazın (lütfen büyük harfle yazın!): ")
+if kelime in meme_sozlugu.keys():
+    print(meme_sozlugu[kelime])
+else:
+    print('Daha ödemeniz gereken 324 vergi bulunmakta')
+    # Kelime eşleşmiyorsa ne yapmalıyız?
